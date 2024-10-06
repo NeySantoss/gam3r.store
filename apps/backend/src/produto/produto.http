@@ -1,0 +1,23 @@
+GET http://localhost:3005/produtos
+
+
+###
+GET http://localhost:3005/produtos/29
+
+###
+DELETE http://localhost:3005/produtos/29
+
+
+###
+POST http://localhost:3005/produtos
+Content-Type: : : application/json
+{
+    
+    "nome": "Notebook Gamer HP Pavilion",
+    "descricao": "O HP Pavilion é um notebook gamer com desempenho sólido e design moderno, perfeito para jogadores que buscam custo-benefício.",
+    "marca": "HP",
+    "modelo": "Pavilion 15-dk0010",
+    "imagem": "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fhp-pavilion-dk0010.png?alt=media&token=6f0d7c8d-0612-4ca9-9ee8-1849971ae8c4",
+    "nota": 4,
+}
+
