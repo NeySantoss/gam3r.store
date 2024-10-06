@@ -1,4 +1,5 @@
-import Pagina from "@/components/templete/Pagina";
+import Pagina from "@/components/template/Pagina";
+
 
 export default function Layout(props:any) {
     return(
